@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local caches / scratch (not part of the deliverable)
+data/
+.colab_smoke/

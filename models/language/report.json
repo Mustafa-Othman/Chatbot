@@ -1,0 +1,27 @@
+{
+  "test_accuracy": 0.992,
+  "validation_accuracy": 0.9929,
+  "n_languages": 20,
+  "languages": {
+    "ar": "Arabic",
+    "bg": "Bulgarian",
+    "de": "German",
+    "el": "Greek",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "hi": "Hindi",
+    "it": "Italian",
+    "ja": "Japanese",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "sw": "Swahili",
+    "th": "Thai",
+    "tr": "Turkish",
+    "ur": "Urdu",
+    "vi": "Vietnamese",
+    "zh": "Chinese"
+  }
+}

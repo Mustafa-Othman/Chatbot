@@ -1,0 +1,30 @@
+{
+  "labels": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "tone_map": {
+    "sadness": "negative",
+    "anger": "negative",
+    "fear": "negative",
+    "joy": "positive",
+    "love": "positive",
+    "surprise": "neutral"
+  },
+  "model_cfg": {
+    "vocab_size": 15214,
+    "embed_dim": 128,
+    "hidden_dim": 128,
+    "num_layers": 2,
+    "num_classes": 6,
+    "dropout": 0.4,
+    "pad_idx": 0,
+    "max_len": 40
+  },
+  "test_acc6": 0.8805,
+  "test_acc3": 0.942
+}

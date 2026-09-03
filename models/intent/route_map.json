@@ -1,0 +1,60 @@
+{
+  "fine_to_route": {
+    "track_order": "order_status",
+    "delivery_options": "order_status",
+    "delivery_period": "order_status",
+    "cancel_order": "order_management",
+    "change_order": "order_management",
+    "place_order": "order_management",
+    "check_invoice": "billing_and_refunds",
+    "get_invoice": "billing_and_refunds",
+    "get_refund": "billing_and_refunds",
+    "track_refund": "billing_and_refunds",
+    "check_refund_policy": "billing_and_refunds",
+    "check_cancellation_fee": "billing_and_refunds",
+    "check_payment_methods": "billing_and_refunds",
+    "payment_issue": "billing_and_refunds",
+    "create_account": "account_management",
+    "edit_account": "account_management",
+    "delete_account": "account_management",
+    "switch_account": "account_management",
+    "recover_password": "account_management",
+    "registration_problems": "account_management",
+    "newsletter_subscription": "account_management",
+    "set_up_shipping_address": "shipping_address",
+    "change_shipping_address": "shipping_address",
+    "complaint": "complaint",
+    "review": "complaint",
+    "contact_customer_service": "contact_support",
+    "contact_human_agent": "contact_support"
+  },
+  "routes": [
+    "order_status",
+    "order_management",
+    "billing_and_refunds",
+    "account_management",
+    "shipping_address",
+    "complaint",
+    "contact_support"
+  ],
+  "route_policy": {
+    "small_talk": "no_rag",
+    "order_status": "rag",
+    "order_management": "rag",
+    "billing_and_refunds": "rag",
+    "account_management": "rag",
+    "shipping_address": "rag",
+    "complaint": "escalate",
+    "contact_support": "escalate",
+    "out_of_scope": "no_rag"
+  },
+  "classes": [
+    "account_management",
+    "billing_and_refunds",
+    "complaint",
+    "contact_support",
+    "order_management",
+    "order_status",
+    "shipping_address"
+  ]
+}

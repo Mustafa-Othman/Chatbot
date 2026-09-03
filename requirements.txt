@@ -1,0 +1,23 @@
+# Core data-science / ML stack (verified on Python 3.14, CPU)
+datasets>=2.21
+sentence-transformers>=3.2
+transformers>=4.44
+torch>=2.4
+scikit-learn>=1.5
+pandas>=2.2
+numpy>=1.26
+
+# Vector store
+faiss-cpu>=1.9
+
+# LLM generation (Groq)
+groq>=0.9
+
+# Deployment
+flask>=3.0
+flask-cors>=4.0
+
+# Notebook tooling (optional; needed to build .ipynb from notebooks/_src/*.py)
+nbformat>=5.10
+nbconvert>=7.16
+ipykernel>=6.29
